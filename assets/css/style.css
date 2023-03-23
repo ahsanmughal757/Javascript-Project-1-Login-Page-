@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+input::placeholder {
+    color: white;
+}
+input {
+    background-color: rgb(66, 96, 157);
+    border: none;
+    box-shadow: none;
+}
+
+input[type='password'] {
+    color: white;
+    font-size: 16px;
+}
+input[type='text'] {
+    color: white;
+    /* font-size: 1.2rem; */
+}
+
+.icon {
+    top: 28px;
+    right: 25px;
+}
+
+.input-icon {
+    cursor: pointer;
+}
+.left-edge {
+    margin-left: -10px;
+}
+.forgot-pass {
+    margin-right: 25px
+}
